@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - IDLToolBox (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - IDLToolBox (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  IDLToolBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  IDLToolBox: 0a29f0e19c55a41d1af0bfd73f2712c9342e65ef
+
+PODFILE CHECKSUM: e0831d84462b27a576c07a23e6ade34171f6bbdf
+
+COCOAPODS: 1.8.4

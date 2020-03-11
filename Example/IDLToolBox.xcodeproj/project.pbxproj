@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52862F2E2CB675EEBCB8D45D /* Pods_IDLToolBox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A4D2356AA621AB4D36C2C9 /* Pods_IDLToolBox_Example.framework */; };
+		529363B308A76594AEF7D9CC /* libPods-IDLToolBox_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC07102FA4BD31C41BEDC5 /* libPods-IDLToolBox_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6FC290B3E3501B24A451FDB8 /* Pods_IDLToolBox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3557D0AD2DCB41BC9B4E5AA7 /* Pods_IDLToolBox_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C87E7D3F3C08B3C633105C07 /* libPods-IDLToolBox_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8BBD94E2983DE7418E6178 /* libPods-IDLToolBox_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		0D0C6355CC36FE152F40846F /* Pods-IDLToolBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLToolBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-IDLToolBox_Tests/Pods-IDLToolBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		187CA7C6D1ECD621F8D68CCF /* Pods-IDLToolBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLToolBox_Example.release.xcconfig"; path = "Target Support Files/Pods-IDLToolBox_Example/Pods-IDLToolBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3557D0AD2DCB41BC9B4E5AA7 /* Pods_IDLToolBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDLToolBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C2D60240B51B30A606FCA4 /* Pods-IDLToolBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLToolBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-IDLToolBox_Example/Pods-IDLToolBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B8BBD94E2983DE7418E6178 /* libPods-IDLToolBox_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDLToolBox_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* IDLToolBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDLToolBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84862B6FE4F569F0050399CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		84862B6FE4F569F0050399CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9797A721B27DA79040D45102 /* IDLToolBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IDLToolBox.podspec; path = ../IDLToolBox.podspec; sourceTree = "<group>"; };
+		9797A721B27DA79040D45102 /* IDLToolBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IDLToolBox.podspec; path = ../IDLToolBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD4624A3909E9A50312DFDFE /* Pods-IDLToolBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLToolBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IDLToolBox_Tests/Pods-IDLToolBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B8B32F39A40F548D3876B15A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F2A4D2356AA621AB4D36C2C9 /* Pods_IDLToolBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDLToolBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAC07102FA4BD31C41BEDC5 /* libPods-IDLToolBox_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDLToolBox_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B32F39A40F548D3876B15A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				52862F2E2CB675EEBCB8D45D /* Pods_IDLToolBox_Example.framework in Frameworks */,
+				529363B308A76594AEF7D9CC /* libPods-IDLToolBox_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				6FC290B3E3501B24A451FDB8 /* Pods_IDLToolBox_Tests.framework in Frameworks */,
+				C87E7D3F3C08B3C633105C07 /* libPods-IDLToolBox_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F2A4D2356AA621AB4D36C2C9 /* Pods_IDLToolBox_Example.framework */,
-				3557D0AD2DCB41BC9B4E5AA7 /* Pods_IDLToolBox_Tests.framework */,
+				ADAC07102FA4BD31C41BEDC5 /* libPods-IDLToolBox_Example.a */,
+				5B8BBD94E2983DE7418E6178 /* libPods-IDLToolBox_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				AD4624A3909E9A50312DFDFE /* Pods-IDLToolBox_Tests.debug.xcconfig */,
 				0D0C6355CC36FE152F40846F /* Pods-IDLToolBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				1C9C5F27A2401D0F7D2E7ADF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +225,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				7E3C71340DB6215DAC97931A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tbfungeek;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4DLDXBD4UT;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,42 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C9C5F27A2401D0F7D2E7ADF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDLToolBox_Example/Pods-IDLToolBox_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IDLToolBox/IDLToolBox.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDLToolBox.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDLToolBox_Example/Pods-IDLToolBox_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E3C71340DB6215DAC97931A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDLToolBox_Tests/Pods-IDLToolBox_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDLToolBox_Tests/Pods-IDLToolBox_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C07621D0A869246DEA88A8F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,6 +478,7 @@
 			baseConfigurationReference = 54C2D60240B51B30A606FCA4 /* Pods-IDLToolBox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DLDXBD4UT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IDLToolBox/IDLToolBox-Prefix.pch";
 				INFOPLIST_FILE = "IDLToolBox/IDLToolBox-Info.plist";
@@ -529,6 +495,7 @@
 			baseConfigurationReference = 187CA7C6D1ECD621F8D68CCF /* Pods-IDLToolBox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DLDXBD4UT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IDLToolBox/IDLToolBox-Prefix.pch";
 				INFOPLIST_FILE = "IDLToolBox/IDLToolBox-Info.plist";
